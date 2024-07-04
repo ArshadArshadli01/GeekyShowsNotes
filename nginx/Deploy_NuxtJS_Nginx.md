@@ -140,7 +140,7 @@ npm run build
 ```sh
 nano ecosystem.config.js
 ```
-- Write below code in ecosystem.config.js file
+- Write below code in ecosystem.config.cjs file
 ```sh
 module.exports = {
   apps : [

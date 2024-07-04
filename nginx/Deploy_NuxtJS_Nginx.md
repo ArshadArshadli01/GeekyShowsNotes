@@ -138,7 +138,7 @@ npm run build
 ```
 - Create pm2 config File inside project folder
 ```sh
-nano ecosystem.config.js
+nano ecosystem.config.cjs
 ```
 - Write below code in ecosystem.config.cjs file
 ```sh
@@ -158,7 +158,7 @@ sudo service nginx restart
 ```
 - Start NextJS Application using pm2
 ```sh
-pm2 start ecosystem.config.js
+pm2 start ecosystem.config.cjs
 ```
 - Save PM2 Process
 ```sh
